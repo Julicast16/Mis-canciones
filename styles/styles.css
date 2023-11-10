@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playpen+Sans&family=Signika&display=swap');
+
+.titulo1{
+    background-color: blueviolet;
+    font-size: 2rem;
+    color:rgb(255, 255, 255);
+    justify-content: center;
+    font-family: 'Lobster', sans-serif;
+}
+.titulo2{
+    font-family: 'Playpen Sans', cursive;
+}
+.titulo3{
+    font-family: 'Signika', sans-serif;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: rgba(245, 245, 220, 0);
+    color: rgb(255, 0, 251);
+    font-family: 'Playpen Sans', cursive;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: rgb(149, 255, 200);
+}
+body{
+    background-image: url(https://previews.123rf.com/images/krinichnaya/krinichnaya1705/krinichnaya170500275/77262333-textura-de-m%C3%A1rmol-de-fantas%C3%ADa-abstracta-fondo-fractal-suave-en-tonos-pastel-azul-y-blanco.jpg);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.table{
+    border-collapse: collapse;
+}
+.table td{
+    border: 1px solid;
+    text-align: center;
+}
+.table th{
+    background-color: rgb(226, 107, 201);
+    color: black;
+}
+.table td:hover{
+    background-color: rgb(109, 226, 241);
+    color: rgb(0, 0, 0);
+}
+.table th:hover{
+    background-color: rgb(233, 255, 146);
+    color: rgb(0, 0, 0);
+}
+.td{
+    font-weight: bold;
+}
+caption{
+    font-family: 'Lobster', sans-serif;
+    font-size: 15px;
+}
